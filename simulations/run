@@ -1,0 +1,18 @@
+phreeqc co2.phrq co2.out | \
+phreeqc co4.phrq co4.out | \
+phreeqc co8.phrq co8.out | \
+phreeqc cm2.phrq cm2.out | \
+phreeqc cm4.phrq cm4.out | \
+phreeqc cm8.phrq cm8.out | \
+phreeqc ro2.phrq ro2.out | \
+phreeqc ro4.phrq ro4.out | \
+phreeqc ro8.phrq ro8.out | \
+phreeqc rm2.phrq rm2.out | \
+phreeqc rm4.phrq rm4.out | \
+phreeqc rm8.phrq rm8.out | \
+phreeqc to2.phrq to2.out | \
+phreeqc to4.phrq to4.out | \
+phreeqc to8.phrq to8.out | \
+phreeqc tm2.phrq tm2.out | \
+phreeqc tm4.phrq tm4.out | \
+phreeqc tm8.phrq tm8.out

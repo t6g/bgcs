@@ -1,0 +1,3 @@
+phreeqc co2.phrq co2.out | \
+phreeqc co4.phrq co4.out | \
+phreeqc co8.phrq co8.out

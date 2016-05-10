@@ -1,0 +1,4 @@
+phreeqc sol2.phrq | \
+phreeqc sol4.phrq | \
+phreeqc sol8.phrq | \
+phreeqc sol25.phrq

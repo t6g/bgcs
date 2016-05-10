@@ -1,0 +1,9 @@
+phreeqc co2.phrq co2.out | \
+phreeqc co4.phrq co4.out | \
+phreeqc co8.phrq co8.out | \
+phreeqc ro2.phrq ro2.out | \
+phreeqc ro4.phrq ro4.out | \
+phreeqc ro8.phrq ro8.out | \
+phreeqc to2.phrq to2.out | \
+phreeqc to4.phrq to4.out | \
+phreeqc to8.phrq to8.out
