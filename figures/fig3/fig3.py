@@ -20,7 +20,7 @@ plt.xlabel('pH')
 plt.ylabel('%')
 plt.ylim([0, 105])
 plt.text(4.5, 87, 'CO$_2$(g)', color='b')
-plt.text(4.5, 33, 'CO$_2$', color='g')
+plt.text(4.5, 33, 'CO$_2$(aq)', color='g')
 plt.text(8.5, 10, 'CO${_3}^{2-}$', color='m')
 plt.text(7.2, 87, 'HCO${_3}^-$', color='r')
 

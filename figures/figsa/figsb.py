@@ -401,7 +401,7 @@ ax6=subplot(5, 6, 24);
 fe2co = [0.789,10.541, 10.198, 12.734]
 fe4co = [0.789, 6.601, 12.568, 15.624]
 fe8co = [0.789, 9.283, 16.091, 16.601]
-ax6.plot(co8[:, 0], co8[:, index], 'r-', co8a[:, 0], co8a[:, index], 'r--', co8b[:, 0], co8b[:, index], 'r-.', \
+ax6.plot(co8a[:, 0], co8a[:, index], 'r--', co8[:, 0], co8[:, index], 'r-', co8b[:, 0], co8b[:, index], 'r-.', \
          co2[:, 0], co2[:, index], 'b-', co4[:, 0], co4[:, index], 'g-', co8[:, 0], co8[:, index], 'r-', \
          co2a[:, 0], co2a[:, index], 'b--', co4a[:, 0], co4a[:, index], 'g--', co8a[:, 0], co8a[:, index], 'r--', \
          co2b[:, 0], co2b[:, index], 'b-.', co4b[:, 0], co4b[:, index], 'g-.', co8b[:, 0], co8b[:, index], 'r-.', \
