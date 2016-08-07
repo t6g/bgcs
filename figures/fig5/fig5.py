@@ -14,7 +14,7 @@ co2a  = np.loadtxt('../../simulations/bio2/co2.txt', skiprows=2)
 co4a  = np.loadtxt('../../simulations/bio2/co4.txt', skiprows=2)
 co8a  = np.loadtxt('../../simulations/bio2/co8.txt', skiprows=2)
 
-lx = 0.05
+lx = 0.85
 ly = 0.85
 
 fig = figure()
@@ -48,7 +48,7 @@ plt.ylabel('CH$_4$(%)')
 
 index=6
 ax3=subplot(3, 2, 3);
-ax3.plot(co8a[:, 0], co8a[:, index], 'r-.', co8[:, 0], co8[:, index], 'r-', co8b[:, 0], co8b[:, index], 'r-.', \
+ax3.plot(co8b[:, 0], co8b[:, index], 'r-.', co8[:, 0], co8[:, index], 'r-', co8a[:, 0], co8a[:, index], 'r--', \
          co2[:, 0], co2[:, index], 'b-', co4[:, 0], co4[:, index], 'g-', co8[:, 0], co8[:, index], 'r-', \
          co2a[:, 0], co2a[:, index], 'b--', co4a[:, 0], co4a[:, index], 'g--', co8a[:, 0], co8a[:, index], 'r--', \
          co2b[:, 0], co2b[:, index], 'b-.', co4b[:, 0], co4b[:, index], 'g-.', co8b[:, 0], co8b[:, index], 'r-.')
